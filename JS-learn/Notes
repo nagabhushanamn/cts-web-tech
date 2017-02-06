@@ -67,10 +67,13 @@
     --> 'this' ==> keyword
     --> closures
     --> Inheritance
+
     --> object-advanced
     --> ES6 - New features
     --> concurrency-model  ( foundation topic to undertand Node.js)
 
+    --> HTML-5 APIs
+    
 
 --------------------------------------------------
 

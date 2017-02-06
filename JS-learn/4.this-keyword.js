@@ -83,7 +83,7 @@
 //     this.sayName = function () {
 //         console.log('im '+this.name);
 //     }
-//     ths.sayAge = function () {
+//     this.sayAge = function () {
 //         console.log('im '+this.age +" old");
 //     }
 // }
