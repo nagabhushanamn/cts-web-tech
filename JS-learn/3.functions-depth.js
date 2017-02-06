@@ -107,7 +107,7 @@
 // imp0note : .js-lang no-block scopes till es-5
 
 // function func() {
-    
+
 //     {
 //         var i = 100;
 //     }
@@ -121,5 +121,100 @@
 //--------------------------------------------
 
 
+// function as values
+
+// function sayHello() {
+//     console.log('Hello');
+// }
+
+// var sayHi = sayHello;
+// sayHi();
+
+//--------------------------------------------
+
+// function as params
+
+// function greet(f) {
+//     if (f) {
+//         f();
+//         return;
+//     }
+//     console.log('Hello');
+// }
+
+// greet();
+// greet(function () { console.log('Ola'); });
+
+// e.g
 
 
+
+// var nums = [1, 3, 5, 7, 9, 2, 4, 6, 8, 10];
+// // nums.sort();
+// nums.sort(function (a, b) { return a - b; });
+// console.log(nums);
+
+//--------------------------------------------
+
+// function as return of other func
+
+
+// function teach() {
+//     console.log('teaching...');
+//     var learn = function () { 
+//         console.log('learning..');
+//     };
+//     return learn;
+// }
+
+// var learnFunc = teach();
+// learnFunc();
+// learnFunc();
+
+//--------------------------------------------
+
+
+// function params-demo
+
+/*
+    imp-note : to function we can pass 0 or many args
+*/
+
+// function reflect(a) {
+//     console.dir(arguments);
+//     return arguments[0];
+// }
+
+// console.log(reflect(12,13,14,15,16));
+
+// e.g
+
+
+// function sum() {
+//     var len = arguments.length,
+//         i = 0,
+//         result = 0;
+
+//     while (i < len) {
+//         result += arguments[i];
+//         i++;
+//     }
+//     return result;
+// }
+
+// console.log(sum(1,2,3,4,5));
+
+//--------------------------------------------------
+
+
+// Quiz
+
+// var a = 10;
+
+// function f1(a) {
+//     console.log(a);
+// }
+// f1();
+
+
+//--------------------------------------------------
