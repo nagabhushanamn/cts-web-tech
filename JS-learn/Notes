@@ -1,0 +1,88 @@
+
+
+-----------------------------------------------------------------
+
+ 
+ ----------------------------------------------------------------- 
+
+
+ .js-lang
+
+ --> scripting lang for web-pages in browser-envi
+ +
+ --> server-side lang on Node.js
+
+ --> mobile-appln 
+
+ .js-lang
+
+   --> functional pgming lang
+   --> OOP lang
+   --> dynamic data-types
+   --> closures  ==> best lang for evented-envi ( browser-side or server-side)
+
+   --> single-threaded ==> can implement concurrency 
+   --> IO oprns Non-Blocking
+
+   where/when to use .lang ?
+
+
+   on event, to execute any function async.
+   i.e for any event-driven appln development.
+
+
+
+   how to execute .js programs?
+
+   using 'JS-Engine'
+
+
+   browser-envi
+
+    1. chrome  ==> v8(c++)
+    2. IE      ==> chakra
+    3. Firefox ==> rhino
+    4. safari  ==> nitro
+    ....
+
+    other envi
+
+    1. Node.js  ==> v8
+    2. JVM      ==> nashorn
+    3. MongoDB
+    4. Apache CouchDB
+
+
+
+    .js-lang is an implementation of 'ECMAScript' spec or ES
+
+
+    --------------------------------------------------
+
+    .js-lang
+
+    --> js-data-structures
+    --> execution-contexts or  scope-chains
+    --> function-depth
+    --> 'this' ==> keyword
+    --> closures
+    --> Inheritance
+    --> object-advanced
+    --> ES6 - New features
+    --> concurrency-model  ( foundation topic to undertand Node.js)
+
+
+--------------------------------------------------
+
+
+to install development web-server
+
+==> install node.js
+
+if your behind cts internet proxy
+
+> npm set config proxy http://proxy.cognizant:6050
+> npm set config strict-ssl false
+
+
+> npm install -g live-server
