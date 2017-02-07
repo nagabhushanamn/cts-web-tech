@@ -59,6 +59,8 @@
 
     --------------------------------------------------
 
+day-1
+
     .js-lang
 
     --> js-data-structures
@@ -68,10 +70,13 @@
     --> closures
     --> Inheritance
 
-    --> object-advanced
-    --> ES6 - New features
-    --> concurrency-model  ( foundation topic to undertand Node.js)
+day-2
 
+    --> object-advanced
+
+    --> ECMA2015 or ES6 - New features
+
+    --> concurrency-model  ( foundation topic to undertand Node.js)
     --> HTML-5 APIs
     
 
@@ -89,3 +94,23 @@ if your behind cts internet proxy
 
 
 > npm install -g live-server
+
+
+--------------------------------------------------
+
+ES6 New Features
+
+
+1. let , const keywords with block-scope
+2. arrow-functions
+3. function default-params
+4. rest & spread operators
+5. object-literal enhancements
+6. string interpolation
+7. destructuring
+8. octal & binary representations
+
+    0o10 or 0O10  ==> 8
+    0b0011 or 0B0011 ==> 3
+
+9. for-of loop    
