@@ -76,7 +76,8 @@ day-2
 
     --> ECMA2015 or ES6 - New features
 
-    --> concurrency-model  ( foundation topic to undertand Node.js)
+    -->concurrency-model  ( foundation topic to undertand Node.js in future)
+    
     --> HTML-5 APIs
     
 
@@ -114,3 +115,13 @@ ES6 New Features
     0b0011 or 0B0011 ==> 3
 
 9. for-of loop    
+
+10. class syntax
+
+11. Symbol type
+
+12. Iterators  ( obj with collection of other elemments)
+
+13. Collections : Map and Set
+
+14. Promise API

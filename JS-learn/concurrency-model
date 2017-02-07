@@ -1,0 +1,35 @@
+
+
+.js-lang is
+
+1.single-threaded lang 
+     ==>we can implement better concurrency
+2.All IO operations are Non-blocking
+
+
+   e.g AJAX  with XHR-API
+
+     
+   ref : https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+       : http://latentflip.com/loupe/
+
+-------------------------------------------------
+
+
+e.g browser e.g chrome
+
+ 1. JS-engine ( v8 )   based on ECMAScript-spec
+
+     a. single-call-stack  ==> to execute contexts
+     b. heap   ==> to hold objects
+
+ 2. browser's APIs  ( e.g DOM , XHR , Timer , HTML5 APIs) based on w3c standards
+
+ 3. event/callback/message queue
+
+ 4. Event-Loop
+
+ ------------------------------------------
+
+
+
