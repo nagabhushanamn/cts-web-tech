@@ -1,0 +1,155 @@
+
+
+
+what .js-lang can do on HTML-page in browser ?
+
+
+ using browser provided APIs, can bring any dynamic activity to web-page
+
+ browser APIs , e.g DOM, XHR , Timer , HTML-5 APIs ...  
+
+  ==> implemented based on w3c standards and abstracted as .js objects & func
+
+
+using DOM 
+------------
+  -> can create,retreive,update,delement HTML elements
+  -> can change element's style
+  -> can change element's attributes
+  -> can change element's text or inner-content
+  -> can listen events on eleemnts
+  -> can create rich-UI components
+
+using XHR
+----------
+  --> can communicate with server async, update results in existing page
+
+using Timer-API
+---------------
+  setTimeout(),setInterval()
+
+
+HTML-5 APIs
+---------------  
+
+ref : https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5
+
+  1. connectivity
+
+     a. Web Sockets
+     b. Server-Sent-Events
+
+  2. Storage API
+
+     a. sessionStaorage
+     b. localStorage
+     c. indexedDB
+
+  3. MultiMedia
+
+     a. Audio/Video support
+     b. Camera API
+
+  4. Graphics and Effects 
+
+     a. Canvas API ==> to draw shape/text/images
+     b. SVG
+     c. WebGL
+
+  5. Performance & Integration 
+
+     a. Web-Worker
+     b. XHR-level2
+     c. History API
+     d. Drag and Drop
+
+
+  6. Device Access
+
+    a. Geo 
+
+  7. Styling
+
+    
+
+ref : http://caniuse.com/
+
+
+--------------------------------------------------------------------
+
+ plain-js  : limitations
+
+
+ --> too much code for simple operation
+ --> browser compatibility  ( main issue )
+ --> performance  ( e.g DOM manipulation)
+
+      DOM -> selection,insertion,updation shud me minimal
+
+ --> memory leaks
+
+     --> cleaning unwanted DOM elements
+     --> removing event-listers , before DOM element destroy..
+
+--> code organization is difficult
+
+     Model
+     View
+     Controller ( logig to change Model)
+
+--> good patterns & best practices...
+
+------------------------------------------------------     
+
+soln : using .JS libraries and Frameworks from third-parties or communities
+
+ Libray   ==> we need to call thier functions to get o/p
+          ==> we have to oraganize code ourself.
+
+
+ Framework ==> they call our functions to provide o/p
+           ==> struture to our appln
+           
+
+Libray 
+
+     ==> jQuery
+
+Frameworks :
+
+    ==> Angular
+
+------------------------------------------------------         
+
+
+how to jquery ?
+
+basic-syntax
+
+var jqColln=jQuery('selector',context)
+jqColln.action1().action2().action3()
+
+
+jQuery - topics
+------------------
+
+1. introduction
+2. jq-selectors and filters  ( level-1)
+3. jq-DOM manipulation
+
+   small case-study
+
+4. jq-Event Handling
+5. jq-Form-Handling
+6. jq-server-communication
+7. jq-template-engines  ( with handlebar )
+8. jq-plugins ( custom / third-party )
+9. Animations
+10. routing - manually
+
+   single-page application (SPA )
+
+11. best-practices
+
+
+------------------------------------------------------     
