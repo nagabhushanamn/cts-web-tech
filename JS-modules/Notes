@@ -1,0 +1,70 @@
+
+problems with global-variables
+
+ // Naming collisions
+ // they become public by default...
+
+-----------------------------------------------
+
+Solns:
+
+     --> using 'self-executable functions' pattern
+
+     limitation :
+
+     --> no soln for depedency hierarchy loading
+
+-----------------------------------------------
+
+Third-party .js communities givem module standards .js lang
+
+
+ 1. AMD ( Async Module Definition )  spec
+
+     define('mid',[],factory);
+     require(config,[],callback);
+
+     ==>implementation ( AMD loaders)
+
+      e.g
+
+      a. require.js ( most used )
+      b. dojo.js
+      c. etc..
+
+      why we need ?
+
+      --> to avoid global-space collisions
+      --> to load modules with proper depedency hierarchy
+
+ 2. commonJS
+
+
+    much popular standard....
+
+    --> simple to use
+
+    imp-notes
+
+    --> every .js file is a module by default
+    --> all members in a .js file by default private
+    --> to abstract/export any members to other module , use 'module.exports'
+    --> to import any mebers , use 'require(mid)';
+
+
+-----------------------------------------------
+
+
+ES6 Modules
+
+
+
+    --> every .js file is module
+    --> all members are private by default
+    --> to abstract any member(s) , use 'export'
+    --> to import any meber(s) , ise 'import'
+
+
+--------------------------------------------------------    
+
+

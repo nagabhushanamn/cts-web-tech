@@ -78,9 +78,13 @@ day-2
 
     -->concurrency-model  ( foundation topic to undertand Node.js in future)
     
-    --> HTML-5 APIs
-    
+day-3
 
+   --> JS-modules
+   --> Jquery-advanced
+   --> HTML-5 APIs
+
+    
 --------------------------------------------------
 
 
@@ -125,3 +129,11 @@ ES6 New Features
 13. Collections : Map and Set
 
 14. Promise API
+
+
+
+-------------------------
+
+1. MDN javascript
+
+2. exploringjs.com
