@@ -25,14 +25,14 @@
 
 // or
 
-$(function () {
-    var $box = $('.well');
-    $('.btn-danger').click(function ($event) {
-        $box.hide();
-    });
-    $('.btn-primary').click(function ($event) {
-        $box.show();
-    });
-});
+// $(function () {
+//     var $box = $('.well');
+//     $('.btn-danger').click(function ($event) {
+//         $box.hide();
+//     });
+//     $('.btn-primary').click(function ($event) {
+//         $box.show();
+//     });
+// });
 
 //-----------------------------------------------------------------

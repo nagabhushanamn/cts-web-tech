@@ -1,0 +1,209 @@
+
+//------------------------------------------------------------
+//  1. Execute jq-code after DOM-ready
+$(document).ready(function(){
+
+});
+
+$(function(){
+
+});
+//--------------------------------------------------------
+//  2. Selecting DOM elements using selectors
+
+$('selector');
+context ==> optional , but recommended for good performance
+//--------------------------------------------------------
+// 3.Selecting DOM elements using selectors with context
+
+$('selector',context);
+context ==> optional , but recommended for good performance
+//--------------------------------------------------------
+//4 . Filtering a wrapper set of DOM elements
+
+$('a').filter('.external').action();
+$('a').filter(function(index){
+}).action();
+//--------------------------------------------------------
+// 5. Finding Descendent-Elements within the currently Selected Wrapper Set
+
+$('p').find('em').action();
+//--------------------------------------------------------
+6. Return to the prior selection before a destructive change
+
+$('selction').filter('selection').end
+ //--------------------------------------------------------
+7. Including the previous selection with current selection
+
+$(selection).find('selection).addBack().action()
+//--------------------------------------------------------
+8.  Traversing the DOM based on current-context to get new set of eleemnts
+
+$(selection:filter)
+ .next()
+ .prev()
+ .parent()
+ .parent().children()
+ .nextAll()
+ .prevAll()
+ //--------------------------------------------------------
+ // DOM manipulation
+
+ 9. creating,Operating on, and Inserting DOM elemnts
+    $('<markup>')
+    .append()
+    .appendTo()
+    .prepend()
+    .prependTo()
+    .after()
+    .before()
+    .insertAfter()
+    .insertBefore()
+    .warp()
+    .wrapAll()
+    .wrappInner()
+//--------------------------------------------------------
+10. Removing DOm elements
+
+$('selector').remove()
+$('selector').remove('.no-need')
+//--------------------------------------------------------
+11. replace DOM Elements
+
+$(selector).replaceWith('<markup>')
+//--------------------------------------------------------
+12. cloning DOM elements
+
+$('selector).clone().appendTo('container')
+//--------------------------------------------------------
+13. getting,setting and Removing attributes
+
+// get
+$('selector').attr('attr-name')
+// set
+$('selector').attr('attr-name','value')
+$('selector').attr({'attr-name':'value',attr2:'value2'})
+// remove
+$('selector').removeAttr('attr-name')
+//--------------------------------------------------------
+14. adding/removing/toggle/verify css-class on elements
+
+$(selector)
+.addClass()
+.hasClass()
+.removeClass()
+.toggleClass()
+//--------------------------------------------------------
+15. getting and setting HTML content
+
+// get 
+.html()
+// set
+.html('html-content')
+//--------------------------------------------------------
+16. getting and setting Text content
+
+// get 
+.text()
+// set
+.text('text-content')
+//--------------------------------------------------------
+17. set and get values form form-fields
+
+$('form-filed selector')
+// get
+.val()
+// set
+.val('value')
+//--------------------------------------------------------
+18. Selecting Child elements Only
+
+$('#nav li > a').action();
+
+//--------------------------------------------------------
+19. Selcting Spefic Siblings
+
+$('h1+h2').action();  // next
+
+$('h1 ~ h2).action()
+
+//--------------------------------------------------------
+20.selecting Elements by Index Order
+
+ :first
+ :last
+ :odd
+ :even
+ :eq(n)
+ :lt(n)
+ :gt(n)
+
+ //--------------------------------------------------------
+ 21. Selecting Elements based on wat they contain
+
+ $('selector:contains("nag")).action()
+
+//--------------------------------------------------------
+22. Selecting Elements by what they dont match
+
+$('a:not("#content"))
+
+//--------------------------------------------------------
+23. Selecting Eleemnts based on attributes
+
+jquery('[href]');
+
+//--------------------------------------------------------
+24. Selecting Form Eleemnts by Type
+
+$('#myform :text').action()
+
+//--------------------------------------------------------
+
+adv
+
+25. Loop thru a set of selected elements
+
+
+$('selector').each(function(i){
+    $(this).action()..
+})
+
+//--------------------------------------------------------
+26. convert s selected jq obj into a Raw DOM object
+
+var $obj=$('div);
+var domObj=$obj[0]; 
+// or
+var domObj=$obj.get(0);
+domObj.innerHTMl='zczxczxc'
+
+
+//--------------------------------------------------------
+
+27. finding closest parent-element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
