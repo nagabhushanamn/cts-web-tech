@@ -20,16 +20,31 @@
             </ul>
         </section>
         <footer class="footer">
-            <span class="todo-count">2 item left</span>
-            <ul class="filters">
-                <li><a class="selected">All</a></li>
-                <li><a>Active</a></li>
-                <li><a>Completed</a></li>
-            </ul>
-            <button class="clear-completed">Clear Completed</button>
         </footer>
     </section>
+    <script id="todo-template" type="text/x-handlebars-template">
+        {{#this}}
+        <li {{#if completed}} class="completed" {{/if}} data-id="{{id}}">
+            <div class="view">
+                <input type="checkbox" class="toggle" {{#if completed}}checked{{/if}}/>
+                <label>{{title}}</label>
+                <button class="destroy"></button>
+            </div>
+            <input class="edit" value="{{title}}"/>
+        </li>
+        {{/this}}
+    </script>
+    <script id="footer-template" type="text/x-handlebars-template">
+        <span class="todo-count">{{activeTodoCount}} item left</span>
+        <ul class="filters">
+            <li><a class="selected">All</a></li>
+            <li><a>Active</a></li>
+            <li><a>Completed</a></li>
+        </ul>
+        {{#if completedTodos}} <button class="clear-completed">Clear Completed</button>{{/if}}
+    </script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.js"></script>
     <script src="app.js"></script>
 </body>
 
