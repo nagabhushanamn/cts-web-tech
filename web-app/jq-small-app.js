@@ -33,9 +33,8 @@ $(function () {
                 return true;
             }
         },
-        renderPosts: function () {
-            $allPosts.children().remove(); // bad-code
-
+        initialRender: function () {
+            //$allPosts.children().remove(); // bad-code
             posts.forEach(function (post) {
                 var template = `
             <div class="alert alert-info">
@@ -46,7 +45,15 @@ $(function () {
                 $allPosts.append($(template));
             });
 
-
+        },
+        renderPost: function (post) {
+            var template = `
+            <div class="alert alert-info">
+                <small>${post.email}</small>
+                <p>${post.message}</p>
+            </div>
+            `;
+            $allPosts.append($(template));
         }
     };
 
@@ -58,7 +65,7 @@ $(function () {
 
     request.done(function (resp) {
         posts = resp;
-        myUtil.renderPosts();
+        myUtil.initialRender();
     });
 
 
@@ -109,7 +116,7 @@ $(function () {
 
         request.done(function (resp) {
             posts.push(resp);
-            myUtil.renderPosts();
+            myUtil.renderPost(resp);
         });
 
         //es-6        
