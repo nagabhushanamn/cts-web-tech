@@ -1,0 +1,76 @@
+
+
+// Node packages ==> .js-code shared by various communities for Node.js based appln dev
+
+
+ all node-packages are hosted into NPM-Repository ==> npmjs.org
+ 
+ to import/export Node packages , we need one command-line tool
+ 
+   ==> NPM ( Node package Manager )
+   
+   when we install node.js , NPM also will get installed by default.
+   
+   
+   verify :> npm -v
+   
+   
+   -------------------------------------------------
+   
+   
+   Node package versioning
+   
+   
+    ==> major.minor.patch
+        
+        e.g 1.0.0
+        
+        bug fix  ==> patch release
+        new addition ==> minor release
+        existing func changed ==> major
+        
+        -----------------------------------------
+        
+        
+        
+   NPM 
+   
+   	1. to install Node packages locally
+   
+	   	--> for appln business logic  
+	   		
+	   			e.g npm i lodash --save
+	   			 
+	   	--> for appln dev assist tools
+	   	
+	   	       e.g 
+	   	        
+	   	        --> build-tools ( grunt , gulp , ... )
+	   	        --> test runners ( mocha , etc..)
+	   	        --> compilers, transpilers ( less , babel , etc.. )
+	   	
+   	
+   	2.to install Node packages globally
+   	
+	   	some node packages will act as tools, for more than one Node projects
+	   	
+	   	e.g
+	   	
+	   	npm i mocha --global
+	   	or
+	   	npm i mocha -g
+	   	
+   	
+   	        
+  ----------------------------------------------- 	        
+   	        
+   	
+   	
+   	
+   	
+   
+   
+   
+   
+   
+   

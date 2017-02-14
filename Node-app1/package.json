@@ -1,0 +1,18 @@
+{
+  "name": "nag-app1",
+  "version": "1.2.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test" :"node_modules/mocha/bin/mocha"
+  },
+  "author": "nag",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

@@ -1,0 +1,33 @@
+
+
+imp-note
+
+.js-lang is not a module based programming-lang till ES-5
+
+
+ but in Node.js , we can make .js-modules using common-js standard.
+ 
+ Node.js already implements common-js standard.
+ 
+ 
+ common-js standard
+ 
+ --> every .js file is an module by default
+ --> all members are private to that module
+ --> to export any member(s) to other modules , we shud use 'module.exports'
+ --> to import module's memebers , we shud use 'require()'
+ --> we can group related modules as package
+ --> package can have descriptor file also ( package.json)
+ 
+ 
+ -------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
