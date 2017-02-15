@@ -1,0 +1,27 @@
+{
+  "name": "Member",
+  "plural": "members",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "todos": {
+      "type": "hasMany",
+      "model": "Todo",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
