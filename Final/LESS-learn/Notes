@@ -1,0 +1,24 @@
+
+
+ complexities with .css tech
+ ----------------------------
+
+ --> dont have variables
+ --> we cant claculate dynamic values , can't do arithmatic
+ --> no functions
+ --> Mixin concepts ==> re-using samme style definition for many eleemnts
+ --> inheritance
+
+ --> difficult to implement 'theming' support
+
+ solns
+
+ ==> using css pre-processors
+
+ popular
+
+   1. LESS
+   2. SASS
+   3. Stylus
+
+-------------------------------------------------   

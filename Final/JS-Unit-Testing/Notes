@@ -1,0 +1,37 @@
+
+
+Unit Testing
+----------------
+
+ .js-lang , we need unit-testing F.W
+
+  --> to write test-cases
+  --> to run   test-cases
+
+
+  e.g
+
+
+  --> jasmie
+  --> mocha
+  --> AVA
+  --> nodeunit
+  --> nunit
+  --> qunit
+
+  ...........
+
+  mocha ==> popular and best unit-testing F.W
+
+
+
+
+  ------------------------------
+
+  Framework     :   mocha
+  Assertion Lib :   expect,should,etc... with Chai
+  Mock Lib      :   Sinon
+
+  --------------------------------
+
+  

@@ -1,0 +1,1 @@
+var mod1={doWork:function(){},m:function(){}},mod2={doWork:function(){}};console.log("app.js");
