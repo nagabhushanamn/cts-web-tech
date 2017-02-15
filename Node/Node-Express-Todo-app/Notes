@@ -1,0 +1,66 @@
+
+
+  Todo - application
+  ------------------
+  
+  server-app
+  ----------------------------------
+  
+    Node.js runtime
+    +
+    Express F.W
+    
+    +
+    
+    Database ==> ( MySql or MongoDB)
+    
+    
+    ==> going to REST API
+    
+    ---------------------------------
+    
+    resource :-  Todo  
+    
+    {
+    	id,
+    	title,
+    	completed
+    }
+    
+    representation: JSON
+    
+	API
+    
+    GET : /todos ==> return all todos
+    GET : /todos/{id} ==> return  todo
+    POST: /todos
+    PUT : /todos/{id}
+    DELETE : /todos/{id}
+    
+    ---------------------------------------------------------------
+    
+    
+    mlab-details
+    
+    
+    { user: "cts-user1", account: "cts-todo-app" }
+    
+    
+    database : todos
+    collection : todos
+    
+    db-user :
+    
+    username : user1
+    password : user1
+    
+    
+    URL : mongodb://cts-user1:ctsuser1@ds151909.mlab.com:51909/todos
+    
+    
+    ---------------------------------------------------------------
+    
+    
+    
+    
+    
